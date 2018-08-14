@@ -63,6 +63,3 @@ startButton.addEventListener('click', () => stopwatch.start());
 
 let stopButton = document.getElementById('stop');
 stopButton.addEventListener('click', () => stopwatch.stop());
-
-var app = React.createElement(App);
-ReactDOM.render(app, document.getElementById('app'));
